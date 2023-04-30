@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/pramod-tiwari-pELem6Qj_GE-unsplash.jpg);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100svh ;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    
+}
+h1{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 24svh;
+}
+.countdown-container{
+    display: flex;
+    color: aliceblue;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.big-text{
+     font-size: 4rem;
+     line-height: 1;
+     margin: 0 2rem;
+}
+.countdown-el  {
+    text-align: center;
+}
+.counterdown-el span{
+    font-size: 1.5rem;
+}
